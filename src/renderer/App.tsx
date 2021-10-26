@@ -1,10 +1,12 @@
 import { MemoryRouter as Router, Switch, Route } from 'react-router-dom';
+import Button from '@mui/material/Button';
 import icon from '../../assets/icon.svg';
 import './App.css';
 
 const Hello = () => {
   return (
     <div>
+      <Button variant="contained">Hello World</Button>
       <div className="Hello">
         <img width="200px" alt="icon" src={icon} />
       </div>
